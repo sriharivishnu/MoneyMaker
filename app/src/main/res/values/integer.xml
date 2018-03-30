@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //Upgrades integers
+    <integer name="upgrades1">100</integer>
+    <integer name="upgrades2">500</integer>
+    <integer name="upgrades3">1250</integer>
+    <integer name="upgrades4">3500</integer>
+    <integer name="upgrades5">8500</integer>
+    <integer name="upgrades6">20000</integer>
+    <integer name="upgrades7">75000</integer>
+
+    <integer name="upgrades8">100</integer>
+    <integer name="upgrades9">100</integer>
+    <integer name="upgrades10">100</integer>
+    <integer name="upgrades11">100</integer>
+    <integer name="upgrades12">100</integer>
+    <integer name="upgrades13">100</integer>
+    <integer name="upgrades14">100</integer>
+
+    //Income integers
+    <integer name="income1">2000</integer>
+    <integer name="income2">5000</integer>
+    <integer name="income3">7500</integer>
+    <integer name="income4">15000</integer>
+    <integer name="income5">25000</integer>
+    <integer name="income6">100000</integer>
+    <integer name="income7">500000</integer>
+
+    <integer name="income8">100</integer>
+    <integer name="income9">100</integer>
+    <integer name="income10">100</integer>
+    <integer name="income11">100</integer>
+    <integer name="income12">100</integer>
+    <integer name="income13">100</integer>
+    <integer name="income14">100</integer>
+
+</resources>

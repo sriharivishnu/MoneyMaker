@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">MoneyMaker</string>
+    <string name="Money">Money</string>
+    <string name="app_id_adMob">ca-app-pub-3495964067534428~4978161760</string>
+    <string name="mainActivityAdsBanner">ca-app-pub-3495964067534428/8394662590</string>
+    <string name="sample_banner">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="videoAdRewards">ca-app-pub-3495964067534428/7160539760</string>
+    <string name="sample_reward">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="leaderboard">CgkI_MqV-8cDEAIQAQ</string>
+    <string name="app_id">122396435836</string>
+
+    <string name="gamehelper_sign_in_failed">Failed to sign in. Please check your network connection and try again.</string>
+    <string name="gamehelper_app_misconfigured">The application is incorrectly configured. Check that the package name and signing certificate match the client ID created in Developer Console. Also, if the application is not yet published, check that the account you are trying to sign in with is listed as a tester account. See logs for more information.</string>
+    <string name="gamehelper_license_failed">License check failed.</string>
+    <string name="gamehelper_unknown_error">Unknown error.</string>
+
+    <string name="app_misconfigured">Unknown error.</string>
+    <string name="sign_in_failed">Sign-in error.</string>
+    <string name="license_failed">License error.</string>
+
+    <string-array name="music_choices">
+        <item>MoneyMaker Main Theme</item>
+        <item>MoneyMaker 1</item>
+        <item>MoneyMaker 2</item>
+    </string-array>
+
+    //Upgrades Boosts Strings
+    <string name="upgrade1">Lemonade Stand ($2)</string>
+    <string name="upgrade2">Selling T-Shirts ($5)</string>
+    <string name="upgrade3">Barber ($10)</string>
+    <string name="upgrade4">Taxi Driver ($25)</string>
+    <string name="upgrade5">Teacher ($50)</string>
+    <string name="upgrade6">Web Developer ($100)</string>
+    <string name="upgrade7">Engineer ($250)</string>
+
+    <string name="upgrade8">Lawyer ($500)</string>
+    <string name="upgrade9">Heart Surgeon ($1,000)</string>
+    <string name="upgrade10">Stock Investor ($2,500)</string>
+    <string name="upgrade11">Athlete ($5,000)</string>
+    <string name="upgrade12">Movie Star ($10,000)</string>
+    <string name="upgrade13">CEO of Company ($25,000)</string>
+    <string name="upgrade14">Donald J. Trump ($50,000)</string>
+
+    <string name="upgrade15">Owner of Gucci ($100,000)</string>
+    <string name="upgrade16">Russian Mob ($200,000)</string>
+    <string name="upgrade17">Indonesian King ($400,000)</string>
+    <string name="upgrade18">Lionel Messi (750,000)</string>
+    <string name="upgrade19">Blackbeard ($1,250,000)</string>
+    <string name="upgrade20">Smaug ($2,000,000)</string>
+    <string name="upgrade21">European King ($5,000,000)</string>
+
+    //Upgrades Costs strings
+    <string name="upgrades1">$100</string>
+    <string name="upgrades2">$500</string>
+    <string name="upgrades3">$1,500</string>
+    <string name="upgrades4">$4,250</string>
+    <string name="upgrades5">$15,000</string>
+    <string name="upgrades6">$45,000</string>
+    <string name="upgrades7">$115,000</string>
+
+    <string name="upgrades8">$325,000</string>
+    <string name="upgrades9">$700,000</string>
+    <string name="upgrades10">$1,500,000</string>
+    <string name="upgrades11">$5,000,000</string>
+    <string name="upgrades12">$15,000,000</string>
+    <string name="upgrades13">$45,000,000</string>
+    <string name="upgrades14">$125,000,000</string>
+
+    <string name="upgrades15">$225,000,000</string>
+    <string name="upgrades16">$400,000,000</string>
+    <string name="upgrades17">$700,500,000</string>
+    <string name="upgrades18">$1,000,000,000</string>
+    <string name="upgrades19">$1,500,000,000</string>
+    <string name="upgrades20">$2,500,000,000</string>
+    <string name="upgrades21">$5,000,000,000</string>
+    //Income Boosts strings
+    <string name="income1">Baseball Cards (+$1/sec)</string>
+    <string name="income2">Savings (+$5/sec)</string>
+    <string name="income3">Old Vase (+$10/sec)</string>
+    <string name="income4">Paintings (+$25/sec)</string>
+    <string name="income5">Coin Collection (+$50/sec)</string>
+    <string name="income6">Low-risk stocks (+$100/sec)</string>
+    <string name="income7">Corporate Bonds (+$250/sec)</string>
+
+    <string name="income8">Residential Properties (+$475)</string>
+    <string name="income9">Small-time Business (+$750)</string>
+    <string name="income10">Volatile Stocks (+$1,500)</string>
+    <string name="income11">Gold Bars (+$2,500)</string>
+    <string name="income12">Oil Company (+$5,000)</string>
+    <string name="income13">Tech Giant (+$10,000)</string>
+    <string name="income14">Tropical Country (+$25,000)</string>
+
+    //Income Costs strings
+    <string name="incomes1">$5,000</string>
+    <string name="incomes2">$24,500</string>
+    <string name="incomes3">$48,000</string>
+    <string name="incomes4">$117,500</string>
+    <string name="incomes5">$230,000</string>
+    <string name="incomes6">$450,000</string>
+    <string name="incomes7">$1,100,000</string>
+
+    <string name="incomes8">$2,042,500</string>
+    <string name="incomes9">$3,150,000</string>
+    <string name="incomes10">$6,150,000</string>
+    <string name="incomes11">$10,000,000</string>
+    <string name="incomes12">$19,500,000</string>
+    <string name="incomes13">$38,000,000</string>
+    <string name="incomes14">$92,500,000</string>
+</resources>
