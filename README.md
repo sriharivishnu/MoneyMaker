@@ -1,2 +1,2 @@
 # MoneyMaker
-Make money
+MoneyMaker is a fun game for all ages. It is a great activity to help fight boredom when you are stuck in a long line. You can generate money simply by clicking a button. There are multiple upgrades available to users when they progress through the game It helps boost self confidence of the player by easily progressing through the various levels. Have fun playing this game, and don't forget to send me your good feedback!
