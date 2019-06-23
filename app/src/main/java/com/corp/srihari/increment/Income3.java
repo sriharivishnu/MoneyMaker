@@ -11,6 +11,5 @@ public class Income3 extends AppCompatActivity {
         setContentView(R.layout.activity_income3);
 
 
-
     }
 }

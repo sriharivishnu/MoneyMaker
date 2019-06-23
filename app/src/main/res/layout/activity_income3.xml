@@ -4,6 +4,470 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.corp.srihari.increment.Income3">
+    tools:context="com.corp.srihari.increment.Upgrades"
+    android:background="#C0C0C0"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar4"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="#808080"
+        android:minHeight="?attr/actionBarSize"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/isilver8"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.0" />
+    <TextView
+        android:id="@+id/first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/isilver1"
+        android:layout_marginRight="8dp"
+        app:layout_constraintTop_toTopOf="@+id/isilver1"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/isilver1"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintHorizontal_bias="0.347"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/isilver6"
+        android:layout_width="102dp"
+        android:layout_height="36dp"
+        android:text="@string/income20"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/isilver13"
+        app:layout_constraintLeft_toLeftOf="@+id/isilver5"
+        app:layout_constraintTop_toTopOf="@+id/isilver13"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/seventh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/isilver7"
+        app:layout_constraintTop_toTopOf="@+id/isilver7"
+        app:layout_constraintLeft_toLeftOf="@+id/sixth"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.428" />
+
+    <TextView
+        android:id="@+id/isilver5"
+        android:layout_width="81dp"
+        android:layout_height="43dp"
+        android:text="@string/income19"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/isilver12"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/isilver4"
+        app:layout_constraintTop_toTopOf="@+id/isilver12"
+        app:layout_constraintVertical_bias="0.818" />
+
+    <TextView
+        android:id="@+id/sixth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/isilver6"
+        app:layout_constraintTop_toTopOf="@+id/isilver6"
+        app:layout_constraintLeft_toLeftOf="@+id/fifth" />
+
+    <TextView
+        android:id="@+id/isilver4"
+        android:layout_width="119dp"
+        android:layout_height="41dp"
+        android:text="@string/income18"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/isilver11"
+        app:layout_constraintLeft_toLeftOf="@+id/isilver3"
+        app:layout_constraintTop_toTopOf="@+id/isilver11" />
+
+    <TextView
+        android:id="@+id/fifth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/isilver5"
+        app:layout_constraintTop_toTopOf="@+id/isilver5"
+        app:layout_constraintLeft_toLeftOf="@+id/fourth" />
+
+    <TextView
+        android:id="@+id/isilver3"
+        android:layout_width="107dp"
+        android:layout_height="44dp"
+        android:text="@string/income17"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/isilver10"
+        app:layout_constraintLeft_toLeftOf="@+id/isilver2"
+        app:layout_constraintTop_toTopOf="@+id/isilver10"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_marginLeft="-26dp" />
+
+    <TextView
+        android:id="@+id/fourth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/isilver4"
+        app:layout_constraintTop_toTopOf="@+id/isilver4"
+        app:layout_constraintLeft_toLeftOf="@+id/third" />
+
+    <TextView
+        android:id="@+id/isilver2"
+        android:layout_width="119dp"
+        android:layout_height="49dp"
+        android:text="@string/income16"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/isilver9"
+        app:layout_constraintLeft_toLeftOf="@+id/isilver1"
+        app:layout_constraintTop_toTopOf="@+id/isilver9" />
+
+    <TextView
+        android:id="@+id/third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/isilver3"
+        app:layout_constraintTop_toTopOf="@+id/isilver3"
+        app:layout_constraintLeft_toLeftOf="@+id/second" />
+
+    <TextView
+        android:id="@+id/isilver7"
+        android:layout_width="114dp"
+        android:layout_height="40dp"
+        android:text="@string/income21"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/isilver14"
+        app:layout_constraintLeft_toLeftOf="@+id/isilver6"
+        app:layout_constraintTop_toTopOf="@+id/isilver14"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/isilver2"
+        app:layout_constraintTop_toTopOf="@+id/isilver2"
+        app:layout_constraintLeft_toLeftOf="@+id/first" />
+
+    <TextView
+        android:id="@+id/isilver1"
+        android:layout_width="130dp"
+        android:layout_height="51dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/income15"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/isilver8"
+        app:layout_constraintRight_toLeftOf="@+id/isilver8"
+        app:layout_constraintTop_toTopOf="@+id/isilver8"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <Button
+        android:id="@+id/isilver9"
+        android:layout_width="143dp"
+        android:layout_height="50dp"
+        android:background="@drawable/silver_button"
+        android:text="@string/incomes16"
+        app:layout_constraintRight_toRightOf="@+id/isilver8"
+        app:layout_constraintLeft_toLeftOf="@+id/isilver8"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/isilver8"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <Button
+        android:id="@+id/isilver8"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="143dp"
+        android:layout_height="50dp"
+        android:background="@drawable/silver_button"
+        android:elevation="0dp"
+        android:enabled="true"
+        android:text="@string/incomes15"
+        android:textStyle="bold"
+        android:layout_marginRight="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="68dp" />
+
+    <Button
+        android:id="@+id/isilver14"
+        android:layout_width="143dp"
+        android:layout_height="50dp"
+        android:background="@drawable/silver_button"
+        android:text="@string/incomes21"
+        android:textStyle="bold"
+        app:layout_constraintRight_toRightOf="@+id/isilver13"
+        app:layout_constraintLeft_toLeftOf="@+id/isilver13"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/isilver13"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/isilver10"
+        android:layout_width="143dp"
+        android:layout_height="50dp"
+        android:background="@drawable/silver_button"
+        android:text="@string/incomes17"
+        app:layout_constraintRight_toRightOf="@+id/isilver9"
+        app:layout_constraintLeft_toLeftOf="@+id/isilver9"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/isilver9"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <Button
+        android:id="@+id/isilver11"
+        android:layout_width="143dp"
+        android:layout_height="50dp"
+        android:background="@drawable/silver_button"
+        android:text="@string/incomes18"
+        android:textStyle="bold"
+        app:layout_constraintRight_toRightOf="@+id/isilver10"
+        app:layout_constraintLeft_toLeftOf="@+id/isilver10"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/isilver10"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <Button
+        android:id="@+id/isilver12"
+        android:layout_width="143dp"
+        android:layout_height="50dp"
+        android:background="@drawable/silver_button"
+        android:text="@string/incomes19"
+        app:layout_constraintRight_toRightOf="@+id/isilver11"
+        app:layout_constraintLeft_toLeftOf="@+id/isilver11"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/isilver11"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <Button
+        android:id="@+id/isilver13"
+        android:layout_width="143dp"
+        android:layout_height="50dp"
+        android:background="@drawable/silver_button"
+        android:text="@string/incomes20"
+        app:layout_constraintRight_toRightOf="@+id/isilver12"
+        app:layout_constraintLeft_toLeftOf="@+id/isilver12"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/isilver12"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/ilock1"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        android:elevation="2dp"
+        app:srcCompat="@drawable/lockv2"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/isilver9"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/isilver9"
+        app:layout_constraintTop_toTopOf="@+id/isilver9"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/isilver9"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintVertical_bias="1.0"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <ImageButton
+        android:id="@+id/ilock2"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        android:elevation="2dp"
+        app:srcCompat="@drawable/lockv2"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/isilver10"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/isilver10"
+        app:layout_constraintTop_toTopOf="@+id/isilver10"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/isilver10"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintVertical_bias="1.0"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <ImageButton
+        android:id="@+id/ilock3"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        android:elevation="2dp"
+        app:srcCompat="@drawable/lockv2"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/isilver11"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/isilver11"
+        app:layout_constraintTop_toTopOf="@+id/isilver11"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/isilver11"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintVertical_bias="1.0"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <ImageButton
+        android:id="@+id/ilock4"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:background="#00000000"
+        android:elevation="2dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/lockv2"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/isilver12"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/isilver12"
+        app:layout_constraintTop_toTopOf="@+id/isilver12"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/isilver12"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintVertical_bias="1.0"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <ImageButton
+        android:id="@+id/ilock5"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        android:elevation="2dp"
+        app:srcCompat="@drawable/lockv2"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/isilver13"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/isilver13"
+        app:layout_constraintTop_toTopOf="@+id/isilver13"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/isilver13"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintVertical_bias="1.0"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <ImageButton
+        android:id="@+id/ilock6"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        android:elevation="2dp"
+        app:srcCompat="@drawable/lockv2"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/isilver14"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/isilver14"
+        app:layout_constraintTop_toTopOf="@+id/isilver14"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/isilver14"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintVertical_bias="1.0"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/current_value_i"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Current Value = $1/sec"
+        android:textColor="#FFFFFFFF"
+        android:textSize="18sp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/isilver14"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/silver_title_i"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silver Revenue"
+        android:textColor="#FFFFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar4"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/toolbar4"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintHorizontal_bias="0.559" />
+
+    <ImageButton
+        android:id="@+id/ibacku_button"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/back_button"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/toolbar4"
+        app:layout_constraintRight_toLeftOf="@+id/silver_title_i"
+        android:layout_marginRight="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar4"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintHorizontal_bias="0.235"
+        app:layout_constraintVertical_bias="0.0" />
 
 </android.support.constraint.ConstraintLayout>

@@ -151,8 +151,8 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
                                 public void run() {
                                     if (runThread) {
                                         inactivity_counter += 1;
-                                        if (inactivity_counter >= 80) {
-                                            if (inactivity_counter == 80) {
+                                        if (inactivity_counter >= 600) {
+                                            if (inactivity_counter == 600) {
                                                 CustomAlert inact = new CustomAlert(MainActivity.this, "") {
                                                     @Override
                                                     public void onYesClicked() {
@@ -229,7 +229,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
 
                         scaleDown.start();
 
-                        _increase.setColorFilter(Color.argb(300, 300, 300, 1));
+                        _increase.setColorFilter(Color.argb(255, 255, 255, 1));
 
                         return true;
                     case MotionEvent.ACTION_UP:

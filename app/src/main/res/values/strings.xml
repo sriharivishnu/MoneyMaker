@@ -90,6 +90,14 @@
     <string name="income13">Tech Giant (+$10,000)</string>
     <string name="income14">Tropical Country (+$25,000)</string>
 
+    <string name="income15">Mutual Fund Company (+$50,000)</string>
+    <string name="income16">Criminal Organizations (+$100,000)</string>
+    <string name="income17">Film Companies (+$250,000)</string>
+    <string name="income18">World Cup (+$500,000)</string>
+    <string name="income19">NASA (+$1,000,000)</string>
+    <string name="income20">Walmart (+$2,000,000)</string>
+    <string name="income21">America (+$4,000,000)</string>
+
     //Income Costs strings
     <string name="incomes1">$5,000</string>
     <string name="incomes2">$24,500</string>
@@ -106,4 +114,12 @@
     <string name="incomes12">$19,500,000</string>
     <string name="incomes13">$38,000,000</string>
     <string name="incomes14">$92,500,000</string>
+
+    <string name="incomes15">$100,000,000</string>
+    <string name="incomes16">$200,000,000</string>
+    <string name="incomes17">$300,500,000</string>
+    <string name="incomes18">$400,000,000</string>
+    <string name="incomes19">$500,000,000</string>
+    <string name="incomes20">$750,000,000</string>
+    <string name="incomes21">$1,000,000,000</string>
 </resources>
